@@ -1,0 +1,114 @@
+<html>
+    <head>
+<title>My Phone Number</title>
+<!-- google fonts : -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+   
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+span {
+  color: #1d365e;
+  transition: 0.5s;
+}
+span:hover {
+    color: black;
+}
+.phone {
+    padding: 100px;
+}
+ 
+#secondP {
+    transition: 0.5s;
+    font-size: 100px;
+    text-align: center;
+}
+#secondP:hover {
+    color: #1d365e;
+    font-weight: bold;
+}
+#phoneNum {
+    font-size: 40px;
+    text-align: center;
+}
+#sms {
+    font-size: 40px;
+    text-align: center;
+}
+#img {
+    width: 45px;
+}
+@media screen and (max-width: 1000px) {
+    #phoneNum {
+        font-size: 21px;
+        text-align: left;
+    }
+    #secondP {
+    
+    font-size: 300%;
+    text-align: left;
+    transition: 0.5s;    
+}
+    #secondP:hover {
+        color: #1d365e;
+        font-weight: bold;
+    }
+    #sms {
+         font-size: 20px;
+         text-align: left;
+        }
+    #img {
+        width: 25px;
+    }
+    .phone {
+        padding: 100px;
+        padding-left: 35px;
+    }
+}
+
+</style>
+    </head>
+    <body>
+        <div class="phone">
+            
+                <p id="phoneNum">This is My<span> PHONE </span>Number<span> : </span></p>
+                <br><br>
+                <p id="secondP">050-2643421</p>
+                 <br><br>
+                <p id="sms"> you also can text me by using<span> SMS / Whatsapp </span><img id="img" src="icons/whatsapp-icon.png"> </p>
+            
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        let x = document.getElementById('img');
+        x.addEventListener("click",() => {
+            alert("050-2643421")
+        });
+    </script>
+    </body>
+</html>

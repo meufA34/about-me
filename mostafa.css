@@ -1,0 +1,570 @@
+
+
+
+
+/* important : */
+:root {
+    --primaryColor : #1d365e;
+    --secondaryColor : #f7bcf7;
+    --lightColor : #d7c6c6;
+    --bgColor : #1d1e1f;
+    --pd: 5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-color: var(--bgColor);    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the first <p> */
+#theFirstP {
+  color: var(--lightColor); 
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the big Hello bellow navigation bar : */
+#hi {
+  color: var(--primaryColor);
+  font-size: 200px;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navigation Bar : */
+
+nav {
+  padding-top: 2.8rem;
+  padding-left: var(--pd);
+  padding-right: var(--pd);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.8rem 1.5rem;
+}
+
+nav ul li a {
+  color: var(--lightColor);
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: var(--primaryColor);
+}
+
+
+
+
+
+
+
+
+
+
+  /* buttons : */
+  button {
+    padding: 13px 30px;
+    font-size: 16px;
+    border-radius: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .button1 {
+    color: var(--primaryColor);
+    background-color: var(--bgColor);
+    border: 3px solid var(--primaryColor);
+    transition: 0.4s;
+  }
+  .button1:hover {
+    color: var(--bgColor);
+    background-color: var(--primaryColor);
+  }
+
+  .button2 {
+    background-color: var(--primaryColor);
+    
+    border: 3px solid var(--bgColor);
+    
+   
+    transition: 0.4s;
+  }
+  .button2:hover {
+    color: var(--primaryColor);
+    background-color: var(--bgColor);
+  }
+
+
+
+
+
+
+
+
+
+span {
+  color: var(--primaryColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* second div : */
+  #secondDiv {
+    background-color: var(--primaryColor);
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* talking about my self : */
+
+ #mySelf {
+    padding: var(--pd);
+    border-radius: 12px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* the first image : */
+  #img1 {
+    transition: 0.6s;
+  }
+  #img1:hover {
+    width: 500px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* social media : */
+  #social-media a img {
+    width: 60px;
+    padding:10px;
+    transition: 0.6s;
+  }
+  #social-media a img:hover {
+    width: 80px;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* the second image (working from anywhere) : */
+  #img2 {
+    padding: 20px;
+    transition: 0.6s;
+  }
+  #img2:hover {
+    width: 450px;
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+/* my skils div : */
+.mySkils{
+  text-transform: capitalize;
+  font-weight: bold;
+  color: var(--lightColor);
+  text-align: center;
+  font-size: 30px;
+}
+.Icon {
+  padding: 10px;
+  width: 100px;
+  transition: 0.4s;
+}
+.Icon:hover {
+  padding-left: 15px;
+  width: 115px;
+}
+.skilsDiv {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;  
+}
+
+
+
+
+/* the image that in the middle of "My Skils" */
+#developerImage {
+  width: 150px;
+  transition: 0.4s;
+}
+#developerImage:hover {
+  width: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* my experience text */
+.myExperience {
+  border-radius: 14px;
+  padding: 15px;
+  height: 100%;
+  width: 500px;
+  border: 3px solid var(--lightColor);  
+  text-transform: capitalize;
+  color: var(--lightColor);
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all about my works : */
+.worksDiv {
+  padding: var(--pd);
+  background-color: var(--primaryColor);
+  display: flex;
+  justify-content: space-around;
+}
+.me {
+  padding: 20px;
+  width: 200px;
+  border: 3px solid var(--bgColor);
+  border-radius: 14px; 
+}
+
+
+.mario {
+  padding: 20px;
+  width: 200px;
+  border: 3px solid var(--bgColor);
+  border-radius: 14px;
+}
+.img3 {
+  width: 150px;
+  transition: 0.4s;
+}
+.img3:hover {
+  width: 155px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all about "thanks" section : */
+.thanks {
+  text-align: center;
+  padding: var(--pd);
+}
+#thanksP {
+  color: var(--lightColor);
+  font-size: 50px;
+}
+.myAcounts a img {
+    width: 60px;
+    padding:10px;
+    transition: 0.6s;
+  }
+  .myAcounts a img:hover {
+    width: 80px;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*for phones :*/
+@media screen and (max-width: 1000px
+) {
+  #img2 {
+    padding: 20px;
+    transition: 0.6s;
+    display: none;
+  }
+  #developerImage{
+     display: none;
+  }
+  #aboutMySelf{
+    font-size: 7px;
+  }
+  #normadbtn{
+    display: none;
+  }
+  #img1 {
+    display: none;
+    width: 300px;
+    transition: 0.6s;
+  }
+  #img1:hover {
+    width: 500px;
+  }
+  #theFirstP {
+    color: var(--lightColor); 
+    font-size: 20px;
+  }
+  .myExperience {
+    border-radius: 14px;
+    padding: 15px;
+    padding-bottom: 100px;
+    height: 100%;
+    width: 500px;
+    border: 3px solid var(--lightColor);
+    text-transform: capitalize;
+    color: var(--lightColor);
+    font-weight: bold;
+  }
+  #marioButton{
+    display: none;
+  }
+  #hi {
+    color: var(--primaryColor);
+    font-size: 100px;
+    display: inline;
+  }
+  #center {
+    text-align: left;
+    padding: var(--pd);
+  }  
+ 
+}
